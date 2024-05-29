@@ -2,8 +2,11 @@
 
 [Yazi](https://github.com/sxyazi/yazi) plugin to preview directories, can be switched between list and tree modes.
 
-![list.png](https://raw.githubusercontent.com/sharklasers996/eza-preview.yazi/main/list.png)
-![tree.png](https://raw.githubusercontent.com/sharklasers996/eza-preview.yazi/main/tree.png)
+List mode:
+![list.png](list.png)
+
+Tree mode:
+![tree.png](tree.png)
 
 ## Requirements
 
