@@ -1,6 +1,6 @@
 # eza-preview.yazi
 
-[Yazi](https://github.com/sxyazi/yazi) plugin to preview directories, can be switched between list and tree modes.
+[Yazi](https://github.com/sxyazi/yazi) plugin to preview directories using [eza](https://github.com/eza-community/eza), can be switched between list and tree modes.
 
 List mode:
 ![list.png](list.png)
@@ -11,6 +11,7 @@ Tree mode:
 ## Requirements
 
 - [yazi](https://github.com/sxyazi/yazi)
+- [eza](https://github.com/eza-community/eza)
 
 ## Installation
 
