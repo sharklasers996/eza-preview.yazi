@@ -15,14 +15,14 @@ local is_tree_view_mode = ya.sync(function(state, _)
     return state.tree
 end)
 
+function M:setup()
+    toggle_view_mode()
+end
 
 function M:entry(_)
     toggle_view_mode()
 
     ya.manager_emit("seek", { 0 })
-end
-
-function M:show_tree()
 end
 
 function M:peek()
@@ -32,6 +32,7 @@ function M:peek()
         "--color=always",
         "--icons=always",
         "--group-directories-first",
+        "--no-quotes",
         tostring(self.file.url)
     }
 
